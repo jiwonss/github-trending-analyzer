@@ -5,8 +5,7 @@ __pycache__/
 *.pyd
 
 # Python virtual environments
-venv/
-env/
+.venv/
 *.env
 
 # IDE or editor settings
