@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+
+contact_links:
+  - name: GitHub Issues
+    url: https://github.com/your-repo/issues
+
+templates:
+  - name: "Feature Request"
+    filename: "feature_request.md"
+  - name: "Bug Report"
+    filename: "bug_report.md"
