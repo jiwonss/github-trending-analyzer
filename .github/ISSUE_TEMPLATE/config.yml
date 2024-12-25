@@ -2,7 +2,7 @@ blank_issues_enabled: false
 
 contact_links:
   - name: GitHub Issues
-    url: https://github.com/your-repo/issues
+    url: https://github.com/jiwonss/issues
 
 templates:
   - name: "Feature Request"
