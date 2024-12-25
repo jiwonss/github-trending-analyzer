@@ -1,3 +1,12 @@
+---
+name: Feature request
+about: 기능 추가 이슈 템플릿
+title: ''
+labels: ''
+assignees: jiwonss
+
+---
+
 ### 문제 설명
 - 이 기능이 필요한 이유나 배경을 간략히 설명해주세요.
   
