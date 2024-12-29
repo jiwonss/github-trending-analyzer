@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from .routers import github
+from app.routers import github
 
 app = FastAPI()
 
