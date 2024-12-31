@@ -15,13 +15,13 @@ class Settings(BaseSettings):
 settings = Settings()
 
 Base = declarative_base()
-Engine = create_engine(settings.database_url)
+Engine = create_engine(settings.database_url, echo=True)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=Engine)
 
 
-def get_db():
-    db = SessionLocal()
+def get_session():
+    session = SessionLocal()
     try:
-        yield db
+        yield session
     finally:
-        db.close()
+        session.close()
