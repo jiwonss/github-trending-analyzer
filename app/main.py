@@ -2,6 +2,7 @@ from fastapi import FastAPI
 from app.routers import github
 from app.core.database import Base, Engine
 import logging
+from app.models import repository
 
 app = FastAPI()
 
